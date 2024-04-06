@@ -53,7 +53,7 @@
         <axis xyz="0 1 0" />
         <limit lower="${-2*pi}" upper="${2*pi}" effort="10.0" velocity="0.5"/>
     </joint>
-    <joint name="${prefix}joint2" type="revolute">
+    <joint name="${prefix}joint2" type="fixed">
         <parent link="${prefix}link2"/>
         <child link="${prefix}link3"/>
         <origin xyz="0 0 0.5" rpy="0 0 0"/>
