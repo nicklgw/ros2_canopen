@@ -117,7 +117,7 @@ def generate_launch_description():
         # robot_controller_spawner,
         forward_position_controller_spawner,
         robot_state_publisher_node,
-        slave_node_1,
+        # slave_node_1,
         # slave_node_2,
         rviz_node
     ]
