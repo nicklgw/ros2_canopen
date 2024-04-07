@@ -121,7 +121,7 @@ def generate_launch_description():
         control_node,
         joint_state_broadcaster_spawner,
         # robot_controller_spawner,
-        # forward_position_controller_spawner,
+        forward_position_controller_spawner,
         forward_velocity_controller_spawner,
         robot_state_publisher_node,
         # slave_node_1,
